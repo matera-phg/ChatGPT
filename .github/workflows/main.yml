@@ -33,7 +33,7 @@ jobs:
           push: true
           tags: |
             pauloggrande/imersao-gpt-webapp:v1
-            pauloggrande/imersao-gpt-webapp:latest        
+            pauloggrande/imersao-gpt-webapp:latest
   CD:
     runs-on: ubuntu-latest
     needs: [CI]
